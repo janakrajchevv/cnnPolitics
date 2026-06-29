@@ -339,23 +339,22 @@ figcaption {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  max-width: 440px;
-  min-height: 66px;
+  max-width: 320px;
+  min-height: 50px;
   margin: 0 auto;
-  padding: 16px 24px 14px;
+  padding: 12px 20px 10px;
   overflow: hidden;
   color: #fff;
   background: #f80b0b;
   border: 1px solid rgba(255, 78, 78, 0.55);
   border-radius: 999px;
   text-decoration: none;
-  font-size: clamp(30px, 5vw, 38px);
+  font-size: clamp(24px, 3.2vw, 30px);
   line-height: 1;
   font-weight: 900;
   letter-spacing: 0.075em;
-  text-shadow: 0 3px 0 rgba(145, 0, 0, 0.22), 0 0 10px rgba(255, 255, 255, 0.28);
-  box-shadow: 0 8px 0 #980000, 0 14px 20px rgba(0, 0, 0, 0.22), inset 0 3px 0 rgba(255, 255, 255, 0.22);
+  text-shadow: 0 2px 0 rgba(145, 0, 0, 0.22), 0 0 8px rgba(255, 255, 255, 0.24);
+  box-shadow: 0 6px 0 #980000, 0 10px 16px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.22);
   transform: translateY(0);
   transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
 }
@@ -363,7 +362,7 @@ figcaption {
 .order-button::before {
   content: "";
   position: absolute;
-  inset: 8px 14px auto;
+  inset: 6px 12px auto;
   z-index: -1;
   height: 42%;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.28), rgba(255, 255, 255, 0));
@@ -376,23 +375,23 @@ figcaption {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: -34px;
+  left: -28px;
   z-index: -2;
-  width: 120px;
+  width: 86px;
   background: linear-gradient(105deg, rgba(126, 0, 0, 0.92) 0%, rgba(126, 0, 0, 0.52) 40%, transparent 66%);
   border-radius: 999px 0 0 999px;
   pointer-events: none;
 }
 
 .order-button:hover {
-  box-shadow: 0 10px 0 #980000, 0 18px 24px rgba(0, 0, 0, 0.26), inset 0 3px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 7px 0 #980000, 0 13px 18px rgba(0, 0, 0, 0.24), inset 0 2px 0 rgba(255, 255, 255, 0.25);
   filter: brightness(1.03) saturate(1.05);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 .order-button:active {
-  box-shadow: 0 4px 0 #980000, 0 8px 14px rgba(0, 0, 0, 0.22), inset 0 3px 8px rgba(110, 0, 0, 0.28);
-  transform: translateY(4px);
+  box-shadow: 0 3px 0 #980000, 0 6px 12px rgba(0, 0, 0, 0.2), inset 0 2px 7px rgba(110, 0, 0, 0.28);
+  transform: translateY(3px);
 }
 
 .order-button:focus-visible {
@@ -723,11 +722,11 @@ blockquote {
   }
 
   .order-button {
-    max-width: 430px;
-    min-height: 68px;
+    max-width: 300px;
+    min-height: 48px;
     border-radius: 999px;
-    font-size: clamp(27px, 7.5vw, 32px);
-    padding: 17px 16px 15px;
+    font-size: clamp(22px, 5.8vw, 28px);
+    padding: 11px 16px 9px;
   }
 
   .testimonial {
@@ -906,23 +905,23 @@ blockquote {
   }
 
   .order-button {
-    max-width: 360px;
-    min-height: 64px;
+    max-width: 260px;
+    min-height: 44px;
     border-radius: 999px;
-    font-size: clamp(26px, 7.5vw, 31px);
-    padding: 16px 14px 14px;
+    font-size: clamp(20px, 6vw, 25px);
+    padding: 10px 14px 8px;
     letter-spacing: 0.07em;
-    box-shadow: 0 8px 0 #980000, 0 14px 18px rgba(0, 0, 0, 0.22), inset 0 3px 0 rgba(255, 255, 255, 0.22);
+    box-shadow: 0 5px 0 #980000, 0 9px 13px rgba(0, 0, 0, 0.2), inset 0 2px 0 rgba(255, 255, 255, 0.22);
   }
 
   .order-button:hover {
-    box-shadow: 0 10px 0 #980000, 0 17px 22px rgba(0, 0, 0, 0.25), inset 0 3px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 0 6px 0 #980000, 0 11px 15px rgba(0, 0, 0, 0.24), inset 0 2px 0 rgba(255, 255, 255, 0.25);
     transform: translateY(-2px);
   }
 
   .order-button:active {
-    box-shadow: 0 5px 0 #980000, 0 10px 16px rgba(0, 0, 0, 0.22), inset 0 3px 8px rgba(110, 0, 0, 0.28);
-    transform: translateY(5px);
+    box-shadow: 0 3px 0 #980000, 0 6px 10px rgba(0, 0, 0, 0.2), inset 0 2px 7px rgba(110, 0, 0, 0.28);
+    transform: translateY(3px);
   }
 
   .testimonial {
