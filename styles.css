@@ -340,20 +340,22 @@ figcaption {
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 98px;
-  padding: 26px 30px 24px;
+  max-width: 520px;
+  min-height: 78px;
+  margin: 0 auto;
+  padding: 20px 28px 18px;
   overflow: hidden;
   color: #fff;
   background: #f80b0b;
   border: 1px solid rgba(255, 78, 78, 0.55);
   border-radius: 999px;
   text-decoration: none;
-  font-size: clamp(38px, 7vw, 54px);
+  font-size: clamp(34px, 6vw, 44px);
   line-height: 1;
   font-weight: 900;
   letter-spacing: 0.075em;
   text-shadow: 0 3px 0 rgba(145, 0, 0, 0.22), 0 0 10px rgba(255, 255, 255, 0.28);
-  box-shadow: 0 14px 0 #980000, 0 24px 28px rgba(0, 0, 0, 0.22), inset 0 4px 0 rgba(255, 255, 255, 0.22);
+  box-shadow: 0 10px 0 #980000, 0 18px 24px rgba(0, 0, 0, 0.22), inset 0 3px 0 rgba(255, 255, 255, 0.22);
   transform: translateY(0);
   transition: transform 150ms ease, box-shadow 150ms ease, filter 150ms ease;
 }
@@ -383,14 +385,14 @@ figcaption {
 }
 
 .order-button:hover {
-  box-shadow: 0 16px 0 #980000, 0 28px 34px rgba(0, 0, 0, 0.26), inset 0 4px 0 rgba(255, 255, 255, 0.25);
+  box-shadow: 0 12px 0 #980000, 0 22px 28px rgba(0, 0, 0, 0.26), inset 0 3px 0 rgba(255, 255, 255, 0.25);
   filter: brightness(1.03) saturate(1.05);
   transform: translateY(-3px);
 }
 
 .order-button:active {
-  box-shadow: 0 7px 0 #980000, 0 13px 20px rgba(0, 0, 0, 0.22), inset 0 3px 8px rgba(110, 0, 0, 0.28);
-  transform: translateY(7px);
+  box-shadow: 0 5px 0 #980000, 0 10px 16px rgba(0, 0, 0, 0.22), inset 0 3px 8px rgba(110, 0, 0, 0.28);
+  transform: translateY(5px);
 }
 
 .order-button:focus-visible {
@@ -721,10 +723,11 @@ blockquote {
   }
 
   .order-button {
-    min-height: 80px;
+    max-width: 430px;
+    min-height: 68px;
     border-radius: 999px;
-    font-size: clamp(30px, 8.5vw, 36px);
-    padding: 21px 16px;
+    font-size: clamp(27px, 7.5vw, 32px);
+    padding: 17px 16px 15px;
   }
 
   .testimonial {
@@ -903,16 +906,17 @@ blockquote {
   }
 
   .order-button {
-    min-height: 76px;
+    max-width: 360px;
+    min-height: 64px;
     border-radius: 999px;
-    font-size: clamp(29px, 8.5vw, 35px);
-    padding: 20px 14px 18px;
+    font-size: clamp(26px, 7.5vw, 31px);
+    padding: 16px 14px 14px;
     letter-spacing: 0.07em;
-    box-shadow: 0 10px 0 #980000, 0 18px 22px rgba(0, 0, 0, 0.22), inset 0 3px 0 rgba(255, 255, 255, 0.22);
+    box-shadow: 0 8px 0 #980000, 0 14px 18px rgba(0, 0, 0, 0.22), inset 0 3px 0 rgba(255, 255, 255, 0.22);
   }
 
   .order-button:hover {
-    box-shadow: 0 12px 0 #980000, 0 22px 26px rgba(0, 0, 0, 0.25), inset 0 3px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 0 10px 0 #980000, 0 17px 22px rgba(0, 0, 0, 0.25), inset 0 3px 0 rgba(255, 255, 255, 0.25);
     transform: translateY(-2px);
   }
 
